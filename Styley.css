@@ -99,3 +99,17 @@ h3 {
 .icons {
   font-size: 40px;
 }
+
+@media screen and (max-width: 500px) {
+  form,
+  .heading {
+    width: 79%;
+  }
+  .form-row,
+  .contact-details {
+    flex-direction: column;
+  }
+  .form-column {
+    width: 100%;
+  }
+}
